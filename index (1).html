@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The General's Diplomatic Box Tracker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: 2em auto;
+      padding: 1em;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 0.5em;
+      margin: 1em 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #0066cc;
+      color: white;
+      padding: 0.6em 1.2em;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      display: block;
+      margin: 1em auto;
+    }
+    .status {
+      background: #e7f3fe;
+      padding: 1em;
+      margin-top: 1em;
+      border-left: 4px solid #2196F3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Track Diplomatic Consignment</h1>
+    <input type="text" placeholder="Enter Tracking Code" />
+    <button>Track Now</button>
+    <div class="status">
+      <h2>Status: Held – Clearance Certificate Needed</h2>
+      <p><strong>Current Location:</strong> Istanbul</p>
+      <p><strong>Next Payment Required:</strong> $6,000 – Anti-Terrorism Certificate</p>
+      <p><strong>BTC Address:</strong> 3FakeBitcoinAddressHere</p>
+    </div>
+  </div>
+</body>
+</html>
